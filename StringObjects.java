@@ -64,7 +64,7 @@ public class StringObjects {
         for (String word : list) {
             System.out.print(word + " ");
         }
-        System.out.println("Ordered list");
+        System.out.println("\nOrdered list");
         ArrayList<String> orderedList = new ArrayList<>();
         orderedList.addAll(radixSort(list));
         for (String word : orderedList) {
